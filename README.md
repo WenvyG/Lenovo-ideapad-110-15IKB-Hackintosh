@@ -4,24 +4,24 @@
 
 ## 电脑配置
 
-| 规格   | 详细信息                                                       |
-|:----:|:----------------------------------------------------------:|
-| 电脑型号 | 联想Ideapad110-15IKB                                         |
-| 支持系统 | macOS Catalina 10.15.x / macOS Mojave (理论支持，更新到10.15后未做测试) |
-| 处理器  | 英特尔 酷睿 i5 - 7200U                                          |
-| 内存   | 原厂自带一条4G，后自己另外加一条4G                                        |
-| 硬盘   | 原装辣鸡机械硬盘，自己更换为860EVO                                       |
-| 显卡   | Intel HD Graphics 620                                      |
-| 显示器  | 15.6英寸 TN 1366*768                                         |
-| 声卡   | Conexant CX20751/2  AppleALC ID=21                         |
-| 网卡   | 更换为BCM94360CS2                                             |
+| 规格   | 详细信息                                                                               |
+|:----:|:----------------------------------------------------------------------------------:|
+| 电脑型号 | 联想Ideapad110-15IKB                                                                 |
+| 支持系统 | macOS Catalina 10.15.x / macOS Mojave (理论支持，更新到10.15后未做测试)+Windows 10（使用Boot Camp） |
+| 处理器  | 英特尔 酷睿 i5 - 7200U                                                                  |
+| 内存   | 原厂自带一条4G，后自己另外加一条4G                                                                |
+| 硬盘   | 原装辣鸡机械硬盘，自己更换为860EVO                                                               |
+| 显卡   | Intel HD Graphics 620                                                              |
+| 显示器  | 15.6英寸 TN 1366*768                                                                 |
+| 声卡   | Conexant CX20751/2  AppleALC ID=21                                                 |
+| 网卡   | 更换为BCM94360CS2                                                                     |
 
 ## 引导概况
 
 - 关于EFI，现有`Clover`和`OpenCore`两个引导。
   
-  - `Clover`  仅发布在我替换到OC之后的最后一版，有兴趣可以尝试自己更新`CLOVERX64.efi`、`Kext`以及`driver`。
-  - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.5.9，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，每月初新发布后，应该会在一周内跟进更新。
+  - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新`CLOVERX64.efi`、`Kext`以及`driver`。
+  - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.5.9，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
 
 - ### 安装前准备
   
@@ -68,10 +68,11 @@
 - 声卡
 - 本机自带摄像头
 - 有线网卡
+- `OpenCore`下`NVRAM`正常，可以使用`Boot Camp`在macOS和Windows10之间来回切换
 
 ## 不正常工作
 
-- 自带AMD Radeon 530独立显卡（建议将设置显卡为只运行核显，否则在macOS下温度较高，也可以选择采用[SSDT-Disable-DGPU](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/SSDT-Disable-DGPU.aml)屏蔽独显）
+- 自带AMD Radeon 530独立显卡（建议在BIOS在将显卡设置为只运行核显，否则在macOS下温度较高。也可以选择采用[SSDT-Disable-DGPU](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/SSDT-Disable-DGPU.aml)屏蔽独显，不过这个方法并没有在OC中测试）
 - 其他硬件以及对安装到使用过程有问题的可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中回馈给我。
 
 ## 鸣谢
