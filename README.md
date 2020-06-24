@@ -1,6 +1,5 @@
 # Lenovo-ideapad-110-15IKB-Hackintosh
 
-联想Ideapad110-15IKB
 
 ## 电脑配置
 
