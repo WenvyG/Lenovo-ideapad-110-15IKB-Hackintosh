@@ -53,7 +53,7 @@
 
 ## What not woks
 
-- AMD Radeon 530 ( It is recommended to disable by bios setting or using SSDT-Disable-DGPU, because it will make your computer run at a very high temperature. )
+- AMD Radeon 530 ( It is recommended to disable by bios setting or using [SSDT-Disable-DGPU](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/SSDT-Disable-DGPU.aml), because it will make your computer run at a very high temperature. )
 - Any other issues you may have can be fed back to me in [Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues).
 
 ## Credits
