@@ -1,5 +1,6 @@
 # Lenovo-ideapad-110-15IKB-Hackintosh
 
+# 中文版｜[English](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/README-EN.md)
 
 ## 电脑配置
 
