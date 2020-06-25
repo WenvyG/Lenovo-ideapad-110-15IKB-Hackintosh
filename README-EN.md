@@ -22,7 +22,7 @@
   
   - `Clover`   It will NO LONGER be maintained,  so I will only release the lastest version before I switch to Opencore,  but you still can try to upgrade the `CLOVERX64.efi`,  `Kexts`and`drivers`by yourself.
 
-- `OpenCore`  This one will bemaintained by me for a long time. OpenCore' s version is 0.5.9,  It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
+- `OpenCore`  This one will be maintained by me for a long time. OpenCore' s version is 0.5.9,  It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
 
 - ### Bios Settings
   
