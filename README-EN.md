@@ -1,6 +1,6 @@
 # Lenovo-ideapad-110-15IKB-Hackintosh
 
-# [中文版](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/README.md)｜English
+# [中文版](README.md)｜English
 
 ## Detail of my computer
 
@@ -54,8 +54,8 @@
 
 ## What not woks
 
-- AMD Radeon 530 ( It is recommended to disable by bios setting or using [SSDT-Disable-DGPU](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/SSDT-Disable-DGPU.aml)（I‘m not sure the SSDT's Compatibility in OpenCore) , because it will make your computer run at a very high temperature. )
-- Any other issues you may have can be fed back to me in [Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues).
+- AMD Radeon 530 ( It is recommended to disable by bios setting or using [SSDT-Disable-DGPU](SSDT-Disable-DGPU.aml)（I‘m not sure the SSDT's Compatibility in OpenCore) , because it will make your computer run at a very high temperature. )
+- Any other issues you may have can be feed back to me in [Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues).
 
 ## Credits
 
