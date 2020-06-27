@@ -1,6 +1,6 @@
 # Lenovo-ideapad-110-15IKB-Hackintosh
 
-# 中文版｜[English](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/README-EN.md)
+# 中文版｜[English]( README-EN.md)
 
 ## 电脑配置
 
@@ -72,7 +72,7 @@
 
 ## 不正常工作
 
-- 自带AMD Radeon 530独立显卡（建议在BIOS在将显卡设置为只运行核显，否则在macOS下温度较高。也可以选择采用[SSDT-Disable-DGPU](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/blob/master/SSDT-Disable-DGPU.aml)屏蔽独显，不过这个方法并没有在OC中测试）
+- 自带AMD Radeon 530独立显卡（建议在BIOS在将显卡设置为只运行核显，否则在macOS下温度较高。也可以选择采用[SSDT-Disable-DGPU](SSDT-Disable-DGPU.aml)屏蔽独显，不过这个方法并没有在OC中测试）
 - 其他硬件以及对安装到使用过程有问题的可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中回馈给我。
 
 ## 鸣谢
