@@ -21,8 +21,11 @@
 - 关于EFI，现有`Clover`和`OpenCore`两个引导。
   
   - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新`CLOVERX64.efi`、`Kext`以及`driver`。
-  - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.5.9，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
-
+  
+- `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.0，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+  
+    ###### 注：`（新版OC 0.6.0已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+  
 - ### 安装前准备
   
   - 开机按`F2`进入`BIOS`
@@ -49,7 +52,8 @@
 - 镜像下载
   
   - [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-
+- 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+  
 - EFI下载
   
   - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
@@ -68,7 +72,7 @@
 - 声卡
 - 本机自带摄像头
 - 有线网卡
-- `OpenCore`下`NVRAM`正常，可以使用`Boot Camp`在macOS和Windows10之间来回切换
+- `OpenCore`下`NVRAM`正常，可以使用`Boot Camp`在macOS和Windows10之间自由切换
 
 ## 不正常工作
 
@@ -81,3 +85,6 @@
 - 感谢 [Acidanthera](https://github.com/acidanthera) 提供 [AppleALC](https://github.com/acidanthera/AppleALC)，[Lilu](https://github.com/acidanthera/Lilu)，[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。
 - 感谢 [apianti](https://sourceforge.net/u/apianti)，[blackosx](https://sourceforge.net/u/blackosx)，[blusseau](https://sourceforge.net/u/blusseau)，[dmazar](https://sourceforge.net/u/dmazar) 和 [slice2009](https://sourceforge.net/u/slice2009) 提供 [Clover](https://github.com/CloverHackyColor/CloverBootloader)。
 - 感谢 [daliansky](https://github.com/daliansky) 提供[macOS Catalina镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
+- 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)
+- 感谢[corpnewt](https://github.com/corpnewt)提供[ProperTree](https://github.com/corpnewt/ProperTree)
+

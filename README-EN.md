@@ -22,7 +22,9 @@
   
   - `Clover`   It will NO LONGER be maintained,  so I will only release the lastest version before I switch to Opencore,  but you still can try to upgrade the `CLOVERX64.efi`,  `Kexts`and`drivers`by yourself.
 
-- `OpenCore`  This one will be maintained by me for a long time. OpenCore' s version is 0.5.9,  It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
+- `OpenCore`  This one will be maintained by me for a long time. OpenCore' s version is 0.6.0, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
+
+  ##### PS. OC 0.6.0 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. `However, it should be noted that I am not responsible for any data loss or all other losses caused by trying to install the BETA version of the software on your computer. `
 
 - ### Bios Settings
   
@@ -62,3 +64,5 @@
 - Thanks to [Apple](https://www.apple.com/cn/) for providing macOS
 - Thanks to [Acidanthera](https://github.com/acidanthera)  for providing  [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - Thanks to [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar) and [slice2009](https://sourceforge.net/u/slice2009)  for providing  [Clover](https://github.com/CloverHackyColor/CloverBootloader).
+- Thanks to [corpnewt](https://github.com/corpnewt) providing [gibMacOS](https://github.com/corpnewt/gibMacOS) and [ProperTree](https://github.com/corpnewt/ProperTree).
+
