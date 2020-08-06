@@ -4,17 +4,17 @@
 
 ## Detail of my computer
 
-| Specifications | Detail                                                                                                                 |
-|:--------------:|:----------------------------------------------------------------------------------------------------------------------:|
-| Model          | Lenovo Ideapad110-15IKB                                                                                                |
-| System         | macOS Catalina 10.15.x / macOS Mojave (It's theoretically supportive,  but I haven't tested it.)+Windows10 (Boot Camp) |
-| CPU            | Intel Core i5 - 7200U                                                                                                  |
-| Memory         | 8GB DDR4 2133MHz                                                                                                       |
-| SSD            | Samsung 860EVO                                                                                                         |
-| Graphics       | Intel HD Graphics 620                                                                                                  |
-| Monitor        | 15.6inch TN 1366*768                                                                                                   |
-| Audio          | Conexant CX20751/2  AppleALC ID=21                                                                                     |
-| Wireless Card  | BCM94360CS2                                                                                                            |
+| Specifications |                            Detail                            |
+| :------------: | :----------------------------------------------------------: |
+|     Model      |                   Lenovo Ideapad110-15IKB                    |
+|     System     | macOS Catalina 10.15.x / macOS Mojave (It's theoretically supportive,  but I haven't tested it.)+Windows10 (Boot Camp) / macOS Big Sur 11 |
+|      CPU       |                    Intel Core i5 - 7200U                     |
+|     Memory     |                       8GB DDR4 2133MHz                       |
+|      SSD       |                        Samsung 860EVO                        |
+|    Graphics    |                    Intel HD Graphics 620                     |
+|    Monitor     |                     15.6inch TN 1366*768                     |
+|     Audio      |              Conexant CX20751/2  AppleALC ID=21              |
+| Wireless Card  |                         BCM94360CS2                          |
 
 ## Situation of EFI
 
@@ -26,7 +26,7 @@
 
   ##### PS. OC 0.6.0 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. `However, it should be noted that I am not responsible for any data loss or all other losses caused by trying to install the BETA version of the software on your computer. `
 
-- ### Bios Settings
+- ### BIOS Settings
   
   #### Disable
   
@@ -38,7 +38,7 @@
   
   - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
 
-- ### Changelog
+  ### Changelog
   
   - [Changelog](Changelog.md)
 
