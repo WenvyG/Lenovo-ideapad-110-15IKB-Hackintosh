@@ -22,9 +22,9 @@
   
   - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新`CLOVERX64.efi`、`Kext`以及`driver`。
   
-- `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.1，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+- `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.1，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。~~理论上在每月初官方版本OC新发布后，会在一周内跟进更新。~~待定，有时间再更新。
   
-    ###### 注：`（新版OC 0.6.1已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+    ###### 注：`（新版OC 0.6.1已经支持安装macOS Big Sur BETA，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
   
 - ### 安装前准备
   
