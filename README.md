@@ -20,7 +20,7 @@
 
 - 关于EFI，现有`Clover`和`OpenCore`两个引导。
   
-  - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新`CLOVERX64.efi`、`Kext`以及`driver`。
+  - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新，发现更多可能性。
   
 - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.1，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。~~理论上在每月初官方版本OC新发布后，会在一周内跟进更新。~~待定，有时间再更新。
   
