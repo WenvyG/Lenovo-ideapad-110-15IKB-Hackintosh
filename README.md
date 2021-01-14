@@ -7,10 +7,10 @@
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 | 电脑型号 |                     联想Ideapad110-15IKB                     |
-| 支持系统 | macOS Catalina 10.15.x / macOS Mojave (理论支持，更新到10.15后未做测试)+Windows 10（使用Boot Camp）/ macOS Big Sur 11 |
+| 支持系统 | macOS Catalina 10.15.x / Windows 10（使用Boot Camp）/ macOS Big Sur 11 |
 |  处理器  |                    英特尔 酷睿 i5 - 7200U                    |
 |   内存   |              原厂自带一条4G，后自己另外加一条4G              |
-|   硬盘   |              原装辣鸡机械硬盘，自己更换为860EVO              |
+|   硬盘   |                         三星 860EVO                          |
 |   显卡   |                    Intel HD Graphics 620                     |
 |  显示器  |                     15.6英寸 TN 1366*768                     |
 |   声卡   |              Conexant CX20751/2  AppleALC ID=21              |
@@ -22,9 +22,9 @@
   
   - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新，发现更多可能性。
   
-- `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.1，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。~~理论上在每月初官方版本OC新发布后，会在一周内跟进更新。~~待定，有时间再更新。
+- `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.1，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
   
-    ###### 注：`（新版OC 0.6.1已经支持安装macOS Big Sur BETA，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+    ###### 注：`新版OC 0.6.5已经支持安装macOS Big Sur `
   
 - ### 安装前准备
   
