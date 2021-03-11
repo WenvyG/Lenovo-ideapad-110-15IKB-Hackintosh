@@ -18,13 +18,16 @@
 
 ## Situation of EFI
 
-- Here are two versions of the EFIs,  `Clover`and`OpenCore`.
-  
-  - `Clover`   It will NO LONGER be maintained,  so I will only release the lastest version before I switch to Opencore,  but you still can try to upgrade the `CLOVERX64.efi`,  `Kexts`and`drivers`by yourself.
+#### Here are two different versions of the EFIs,  `Clover`and`OpenCore`.
 
-- `OpenCore`  This one will be maintained by me for a long time. OpenCore' s version is 0.6.1, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
+- **`Clover`**   It will NO LONGER be maintained,  so I will only release the lastest version before I switch to Opencore,  but you still can try to upgrade the `CLOVERX64.efi`,  `Kexts`and`drivers`by yourself.
 
-  ##### PS. `OC 0.6.5 now is support to install macOS Big Sur , enjoy it !`
+- **`OpenCore`**  This one will be maintained by me for a long time. OpenCore' s version is 0.6.1, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
+
+  ##### PS. 
+
+  * **`OC 0.6.7 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`**
+  * **I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.**
 
 - ### BIOS Settings
   
