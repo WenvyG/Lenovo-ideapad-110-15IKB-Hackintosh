@@ -16,22 +16,31 @@
 |   声卡   |              Conexant CX20751/2  AppleALC ID=21              |
 |   网卡   |                      更换为BCM94360CS2                       |
 
-## 引导概况
+## 引导
 
-- 关于EFI，现有`Clover`和`OpenCore`两个引导。
-  
-  - `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新，发现更多可能性。
-  
-    
-  
+#### 关于EFI，现有`Clover`和`OpenCore`两个引导：
+
+- `Clover`  **仅发布在我替换到OC之后的最后一版**，有兴趣可以尝试自己更新，发现更多可能性。
+
 - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.7，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+  - **`最新版OC 0.6.7已经完全支持安装最新版macOS Big Sur。`**
+    - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
   
-    - **`最新版OC 0.6.7已经完全支持安装最新版macOS Big Sur。`**
-  
-  - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
-  
-  
-  
+
+#### OC 与 Clover之间切换：
+
+例如Clover 转 OC：
+
+1. 先设置OC启动
+
+2. 第一次重启，选择`reset nvram`，这时之前的启动设置会清除了
+
+3. 再次设置对应的`EFI`启动即可
+
+   
+
+## 安装
+
 - ### 安装前准备
   
   - 开机按`F2`进入`BIOS`
@@ -41,32 +50,28 @@
   - `F10` 保存设置并重启
 
 - ### 安装后操作
-  
+
   - 安装好系统，进入系统
   - 找到`终端`执行一下：`sudo spctl --master-disable`
 
-- ### OC 与 Clover之间切换：
   
-  - 例如Clover 转 OC
-  
-  - 先设置OC启动
-  
-  - 第一次重启，选择`reset nvram`，这时之前的启动设置会清除了
-  
-  - 再次设置对应的`EFI`启动即可
 
-- 镜像下载
-  
-  - [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
+  ## 镜像及EFI
+
+  #### 镜像下载
+
+  - [**黑果小兵的部落阁**] :[【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
   - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
-  
-- EFI下载
-  
+
+  #### EFI下载
+
   - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
 
-- 更新日志  
-  
+  #### 更新日志  
+
   - [Changelog](Changelog.md)
+
+  
 
 ## 正常工作
 
@@ -85,6 +90,10 @@
 - 自带AMD Radeon 530独立显卡（建议在BIOS在将显卡设置为只运行核显，否则在macOS下温度较高。也可以选择采用[SSDT-Disable-DGPU](SSDT-Disable-DGPU.aml)屏蔽独显，不过这个方法并没有在OC中测试）
 - 其他硬件以及对安装到使用过程有问题的可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中回馈给我。
 
+
+
+
+
 ## 鸣谢
 
 - 感谢[Apple](https://www.apple.com/cn/)的macOS
@@ -93,7 +102,9 @@
 - 感谢 [daliansky](https://github.com/daliansky) 提供[macOS Catalina镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
 - 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
 
-# 注：
+
+
+## 注：
 
 - **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同机型用户，需要自己修改`config.plist`的中的三码。**
 
