@@ -70,15 +70,15 @@
   #### 镜像下载
 
   - [**黑果小兵的部落阁**] :[【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-- 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+  - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
   
 #### EFI下载
   
 - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
   
-  #### 更新日志  
+#### 更新日志  
   
-  - [Changelog](Changelog.md)
+- [Changelog](Changelog.md)
   
   
 
