@@ -56,25 +56,30 @@
 - ### 安装后操作
 
   - 安装好系统，进入系统
-  - 找到`终端`执行一下：`sudo spctl --master-disable`
-
   
-
+- 找到`终端`执行如下代码，以允许安装/打开第三方应用：
+  
+  ```sh
+    sudo spctl --master-disable
+  ```
+  
+  
+  
   ## 镜像及EFI
 
   #### 镜像下载
 
   - [**黑果小兵的部落阁**] :[【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-  - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
-
-  #### EFI下载
-
-  - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
-
+- 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+  
+#### EFI下载
+  
+- [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
+  
   #### 更新日志  
-
+  
   - [Changelog](Changelog.md)
-
+  
   
 
 ## 正常工作
