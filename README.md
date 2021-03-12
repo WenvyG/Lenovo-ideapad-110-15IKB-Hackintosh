@@ -24,8 +24,8 @@
 
 - `OpenCore`  以后主要维护的引导（主要是实在没有精力去在Clover和OC之间来回切换做兼容性测试）。OC目前版本0.6.7，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)。理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
   - **`最新版OC 0.6.7已经完全支持安装最新版macOS Big Sur。`**
-    - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
-  
+  - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
+
 
 #### OC 与 Clover之间切换：
 
