@@ -29,15 +29,19 @@
 
 #### OC 与 Clover之间切换：
 
-例如Clover 转 OC：
+##### Clover 转 OC：
 
 1. 先设置OC启动
-
 2. 第一次重启，选择`reset nvram`，这时之前的启动设置会清除了
-
 3. 再次设置对应的`EFI`启动即可
 
-   
+##### Clover转OC：
+
+1. 从OC启动
+2. 选择`reset nvram`
+3. 选择 macOS 所在磁盘启动
+
+
 
 ## 安装
 
