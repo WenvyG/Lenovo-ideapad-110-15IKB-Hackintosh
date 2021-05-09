@@ -26,7 +26,7 @@
 
   ##### PS. 
 
-  * **`OC 0.6.8 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`**
+  * **`OC 0.6.9 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`**
   * **I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.**
 
 - ### BIOS Settings
