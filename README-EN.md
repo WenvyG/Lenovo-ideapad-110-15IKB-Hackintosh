@@ -4,17 +4,17 @@
 
 ## Detail of my computer
 
-| Specifications |                            Detail                            |
-| :------------: | :----------------------------------------------------------: |
-|     Model      |                   Lenovo Ideapad110-15IKB                    |
-|     System     | macOS Catalina 10.15.x / Windows10 (Boot Camp) / macOS Big Sur 11 |
-|      CPU       |                    Intel Core i5 - 7200U                     |
-|     Memory     |                       8GB DDR4 2133MHz                       |
-|      SSD       |                        Samsung 860EVO                        |
-|    Graphics    |                    Intel HD Graphics 620                     |
-|    Monitor     |                     15.6inch TN 1366*768                     |
-|     Audio      |              Conexant CX20751/2  AppleALC ID=21              |
-| Wireless Card  |                         BCM94360CS2                          |
+| Specifications |                  Detail                  |
+| :------------: | :--------------------------------------: |
+|     Model      |         Lenovo Ideapad110-15IKB          |
+|     System     | Windows10 (Boot Camp) / macOS Big Sur 11 |
+|      CPU       |          Intel Core i5 - 7200U           |
+|     Memory     |             8GB DDR4 2133MHz             |
+|      SSD       |              Samsung 860EVO              |
+|    Graphics    |          Intel HD Graphics 620           |
+|    Monitor     |           15.6inch TN 1366*768           |
+|     Audio      |    Conexant CX20751/2  AppleALC ID=21    |
+| Wireless Card  |               BCM94360CS2                |
 
 ## Situation of EFI
 
@@ -26,7 +26,7 @@
 
   ##### PS. 
 
-  * **`OC 0.6.9 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`**
+  * **`OC 0.7.0 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`**
   * **I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.**
 
 - ### BIOS Settings
