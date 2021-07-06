@@ -73,3 +73,9 @@ OpenCore 0.6.8 --> 0.6.9
 # 2021.6.10
 
 OpenCore 0.6.9 --> 0.7.0
+
+# 2021.7.6
+
+OpenCore 0.7.0 --> 0.7.1
+
+支持macOS Monterey Beta
