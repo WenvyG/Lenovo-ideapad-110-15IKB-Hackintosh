@@ -1,6 +1,6 @@
 # Lenovo-ideapad-110-15IKB-Hackintosh
 
-[中文版](README.md)｜English
+## [中文版](README.md)｜English
 
 ## Detail of my computer
 
